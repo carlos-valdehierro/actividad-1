@@ -12,8 +12,8 @@ Console.ReadLine();
     EscribirMensaje(nombre);
 
 
-  static string EscribirMensaje(string nombre)
+  static string EscribirMensaje(string nombreLocal)
   {
-    Console.WriteLine("Adios " + nombre);
-    return "Hola" + nombre;
+    Console.WriteLine("Adios " + nombreLocal);
+    return "Hola" + nombreLocal;
   }
